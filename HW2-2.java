@@ -2,14 +2,16 @@
 * using Scanner
 */
 
-//Need both File and Scanner libraries
+//Need both File and Scanner libraries scannerFileIO
 import java.io.File;
 import java.util.Scanner;
 
-public class scannerFileIO{
+//public class scannerFileIO{
+public class HW2-2{
+
 	public static void main(String[] args) throws Exception{
 	
-   	File inFile = new File("C:\home\courses\csci2302-001\csci2302-00112\program2data.txt");
+   	File inFile = new File("C:/home/courses/csci2302-001/csci2302-00112/program2data.txt");
    	
    	Scanner input = new Scanner(inFile);
       
